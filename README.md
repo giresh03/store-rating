@@ -333,7 +333,27 @@ docker-compose exec backend bash  # Access backend container
 
 ## 🚀 Deployment
 
-### Production Deployment
+### Quick Deploy to Vercel (Recommended)
+
+For the fastest deployment experience:
+
+📖 **[Quick Deploy Guide](./QUICK_DEPLOY.md)** - Deploy in under 10 minutes!
+
+### Deployment Options
+
+#### Option 1: Vercel (Serverless)
+- ✅ **Fastest deployment**
+- ✅ **Automatic scaling**
+- ✅ **Built-in CI/CD**
+- ✅ **Free tier available**
+
+📚 **[Complete Vercel Guide](./VERCEL_DEPLOYMENT.md)**
+🔧 **[Environment Variables Guide](./ENVIRONMENT_VARIABLES.md)**
+
+#### Option 2: Docker (Traditional Server)
+- ✅ **Full control**
+- ✅ **Consistent environment**
+- ✅ **Easy local development**
 
 1. **Environment Setup**
    - Update environment variables in `docker-compose.yml`
